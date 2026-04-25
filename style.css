@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:#d10dfd;
+    color:white;
+}
+
+.navbar a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.section{
+    padding:60px 80px;
+}
+
+.section h2{
+    margin-bottom:15px;
+}
+
+.light{
+    background:#ffffff;
+}
+
+.center{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    width:320px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#fd5d0d;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.skills span{
+    display:inline-block;
+    margin:8px;
+    padding:8px 14px;
+    background:#4d0dfd;
+    color:white;
+    border-radius:20px;
+    font-size:14px;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#fd0d6d;
+    color:white;
+}
+
+.crm-section {
+    margin-top: 50px;
+}
+
+.crm-section .card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.crm-section .card h3 {
+    color: #4f46e5;
+    margin: 0 0 5px 0;
+}
+
+.crm-section select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
